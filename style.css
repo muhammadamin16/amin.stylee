@@ -85,7 +85,7 @@ li {
 }
 .owlCarusel .owl-carousel .item {
     position: relative;
-    width: 220px;
+    width: 90%;
     height: 400px;
 }
 .owl-carousel .item img {
@@ -136,7 +136,26 @@ li {
 .sec-1{
     margin-top: 51px;
 }
+@media (max-width: 1199.98px) {
+    .head-text h1{
+        font-size: 28px;
+    }
+    .head-text {
+        margin-top: 150px;
+        max-height: 300px;
+        padding: 26px;
+    }
+    .sec-1{
+        margin-top: 98px;
+    }
+}
 @media (max-width: 991.98px) {
+    .head-text{
+        margin-top: 140px;
+    }
+    .head-text h1{
+        font-size: 28px;
+    }
     .img-box>img {
         transform: scale(1);
         object-fit: cover;
@@ -149,12 +168,36 @@ li {
         transform: scale(1);
         width: 112%;
     }
+    .head-text h1{
+        font-size: 26px;
+    }
+    .head-text {
+        max-height: 300px;
+        padding: 8px;
+    }
+}
+@media (max-width: 667.98px) {
+    .head-text h1{
+        font-size: 22px;
+    }
+    .head-text {
+        max-height: 300px;
+        padding: 16px;
+    }
 }
 @media (max-width: 575.98px) {
     .img-box>img {
         object-fit: inherit;
         width: 140%;
         left: -90px;
+    }
+    .head-text h1{
+        font-size: 22px;
+    }
+    .head-text {
+        margin-top: 100px;
+        max-height: 300px;
+        padding: 18px;
     }
 }
 /*                                                section 1                                  */
